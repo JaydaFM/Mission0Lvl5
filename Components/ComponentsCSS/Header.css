@@ -1,0 +1,38 @@
+:root {
+    --primaryColor: #333;
+}
+
+.header {
+    box-sizing: border-box;
+    height: 70px;
+}
+
+.title {
+    text-align: center;
+    font-family: Chapaza;
+    font-size: 40px;
+    position: absolute;
+    justify-content: center;
+    transform: translate(250%, -100%);
+}
+
+.croissant {
+    text-align: center;
+    padding: 10px;
+    margin-left: 20px;
+    float: left;
+}
+
+.headerInsta {
+    color: var(--primaryColor);
+    font-family: Work Sans;
+    position: absolute;
+    transform: translate(70%, 200%);
+}
+
+.buttonGroupHeader {
+    margin-left: 1120px;
+    margin-top: 20px;
+    justify-content: center;
+    position: absolute;
+}
