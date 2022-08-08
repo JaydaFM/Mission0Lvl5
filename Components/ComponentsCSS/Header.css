@@ -7,32 +7,58 @@
     height: 70px;
 }
 
-.title {
+.logoAndName {
+    text-align: center;
+    justify-content: center;
+    margin-top: -33px;
+    
+}
+
+
+.logoName {
+    color: var(--primaryColor);
+    font-family: Work Sans;
+    font-size: 30px;
+    transform: translate(-10%, 0%);
+}
+
+.topnav input[type=text] {
+    border: none;
+    font-family: Work Sans;
+    font-size: 14px;
+    padding: 10px;
+}
+
+/* .title {
     text-align: center;
     font-family: Chapaza;
     font-size: 40px;
     position: absolute;
     justify-content: center;
-    transform: translate(250%, -100%);
-}
+    transform: translate(250%, -140%);
+} */
 
 .croissant {
     text-align: center;
-    padding: 10px;
-    margin-left: 20px;
-    float: left;
-}
-
-.headerInsta {
-    color: var(--primaryColor);
-    font-family: Work Sans;
-    position: absolute;
-    transform: translate(70%, 200%);
+    transform: translate(-10%, -20%);
 }
 
 .buttonGroupHeader {
-    margin-left: 1120px;
-    margin-top: 20px;
-    justify-content: center;
-    position: absolute;
+    transform: translate(0%, 120%);
+    justify-content: flex-end;
+    margin-right: 30px;
 }
+
+.buttonGroupHeaderLeft {
+    transform: translate(0%, 20%);
+    justify-content: flex-start;
+    margin-left: 30px;
+}
+
+a {
+    -webkit-transition: color 0s;
+    transition: color 0s;
+}
+/* a:hover {
+    color: green;
+} */

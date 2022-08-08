@@ -12,20 +12,36 @@ export default function Header() {
             <Button style={{color: "#333", textTransform: "none", fontFamily: "Work Sans"}} variant="text">About</Button>
             <Button style={{color: "#333", textTransform: "none", fontFamily: "Work Sans"}} variant="text">Lookbook</Button>
             <Button style={{color: "#333", textTransform: "none", fontFamily: "Work Sans"}} variant="text">Contact</Button>
-            <Button style={{color: "#333", textTransform: "none", fontFamily: "Work Sans"}} variant="text">Cart</Button>
+            {/* <Button style={{color: "#333", textTransform: "none", fontFamily: "Work Sans"}} variant="text">Cart</Button> */}
             </Stack>
-            <Stack direction="row" spacing={2}>
+            <Stack className="buttonGroupHeaderLeft" spacing={1} direction="row">
+            <Button sx={{ ':hover': { backgroundColor: 'white', opacity: "40%"}}}
+                    style={{color: "#333", textTransform: "none", fontFamily: "Work Sans"}} variant="text">Home</Button>
+            <Button sx={{ ':hover': { backgroundColor: 'white', opacity: "40%"}}}
+                    style={{color: "#333", textTransform: "none", fontFamily: "Work Sans"}} variant="text">Instagram</Button>
+            <Button sx={{ ':hover': { backgroundColor: 'white', opacity: "40%"}}}
+                    style={{color: "#333", textTransform: "none", fontFamily: "Work Sans"}} variant="text">Packages</Button>
+            {/* <Button style={{color: "#333", textTransform: "none", fontFamily: "Work Sans"}} variant="text">Search</Button> */}
+            {/* <div class="topnav">
+            <div class="search-container">
+            <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search" />
+            </form>
+            </div>
+            </div> */}
+            </Stack>
+            <Stack className="logoAndName" direction="row" spacing={2}>
             <Avatar className="croissant"
                 alt="Remy Sharp"
                 src={croissant}
                 sx={{ width: 55, height: 55 }}
                 />
-            <a className="headerInsta" href="https://www.instagram.com/jayda.doodles/">@jayda.doodles</a>
+            <p className="logoName">jayda.doodles</p>
             </Stack>
             
-            <header className="header">
+            {/* <header className="header">
                 <h1 className="title">jayda.doodles</h1>
-            </header>
+            </header> */}
             
         </div>
     )

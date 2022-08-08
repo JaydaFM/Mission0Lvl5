@@ -1,49 +1,42 @@
+.memo {
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 60px;
+}
+
 .artboard {
     width: 1440px;
+
 }
 
-.container {
-    position: relative;
+.summaryCard {
+    
+    justify-content: center;
     text-align: center;
-  }
+    font-family: Neue Haas Unica;
+    font-size: 20px;
 
-.nav {
-    overflow: hidden;
 }
 
-.nav input[type=text] {
-    float: center;
-    padding: 20px;
-    border: none;
-    width: 410px;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 46.5%;
-    transform: translate(-50%, 180%);
-    background-color: #f9f5ec;
-    color: #333;
+.aboutCard {
+    background-color: #f1eee6;
+    padding: 10px;
+    padding-left: 40px;
+    height: 500px;
+    margin: 40px;
+    justify-content: center;
+    text-align: left;
     font-family: Work Sans;
+    color: #d9c0a1;
 }
-
-.submit {
-    float: center;
-    padding: 20px;
-    border: none;
-    font-size: 20px;
-    color: #333;
-    position: absolute;
-    top: 50%;
-    left: 66%;
-    transform: translate(-50%, 180%);
-    background-color: #f9f5ec;
-    font-family: Work Sans;
-  }
-  
-.submit:hover {
-    background: #ccc;
-  }
 
 .imageCards {
     justify-content: center;
+    margin-bottom: 80px;
   }
+
+.aboutText {
+    font-size: 60px;
+    color: #d9c0a1;
+    font-family: Work Sans;
+}

@@ -1,0 +1,35 @@
+.Footer {
+    height: 70px;
+    border-top: #333;
+    border-top: solid 1px;
+    text-align: center;
+}
+
+p4  {
+    text-align: center;
+    justify-content: center;
+    font-family: Work Sans;
+    transform: translateY(80%);
+}
+
+.InstaIcon {
+    transform: translatey(90%)
+}
+
+.InstaIcon:hover {
+    opacity: 40%;
+}
+
+a {
+    text-align: center;
+    justify-content: center;
+    font-family: Work Sans;
+    transform: translateY(80%);
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    opacity: 40%;
+}
+
